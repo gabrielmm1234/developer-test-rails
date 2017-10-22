@@ -127,7 +127,7 @@ RSpec.describe WebPagesController, type: :controller do
     it "redirects to the index page" do
       web_page = WebPage.create! valid_attributes
       delete :destroy, params: {id: web_page.to_param}
-      expect(response).to redirect_to('/web_pages')
+      expect(response).to redirect_to('/web_pages?locale=pt-BR')
     end
   end
 end
