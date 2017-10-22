@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-10-22T19:39:57-02:00">2017-10-22T19:39:57-02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-10-22T20:22:04-02:00">2017-10-22T20:22:04-02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>25</b> files in total.
-    <b>182</b> relevant lines. 
-    <span class="green"><b>182</b> lines covered</span> and
+    <b>183</b> relevant lines. 
+    <span class="green"><b>183</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -113,9 +113,9 @@
       <tr>
         <td class="strong"><a href="#b86b6c1d3755c755f86ea822f490554150829135" class="src_link" title="config/application.rb">config/application.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>15</td>
-        <td>5</td>
-        <td>5</td>
+        <td>16</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -550,7 +550,7 @@
         <li class="covered" data-hits="4" data-linenumber="31">
           <span class="hits">4</span>
           
-          <code class="ruby">        format.html { redirect_to @web_page, notice: &quot;Web page was successfully created.&quot; }</code>
+          <code class="ruby">        format.html { redirect_to @web_page, notice: t(&quot;create_web_page_success&quot;) }</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="32">
@@ -634,7 +634,7 @@
         <li class="covered" data-hits="4" data-linenumber="45">
           <span class="hits">4</span>
           
-          <code class="ruby">        format.html { redirect_to @web_page, notice: &quot;Web page was successfully updated.&quot; }</code>
+          <code class="ruby">        format.html { redirect_to @web_page, notice: t(&quot;update_web_page_success&quot;) }</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="46">
@@ -718,7 +718,7 @@
         <li class="covered" data-hits="4" data-linenumber="59">
           <span class="hits">4</span>
           
-          <code class="ruby">      format.html { redirect_to web_pages_url, notice: &quot;Web page was successfully destroyed.&quot; }</code>
+          <code class="ruby">      format.html { redirect_to web_pages_url, notice: t(&quot;destroy_web_page_success&quot;) }</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="60">
@@ -981,8 +981,8 @@
     <h3>config/application.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>5</b> relevant lines. 
-      <span class="green"><b>5</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1068,13 +1068,19 @@
           <code class="ruby">    # -- all .rb files in that directory are automatically loaded.</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    config.i18n.default_locale = &#39;pt-BR&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">end</code>
