@@ -1,0 +1,35 @@
+Para você, o que é o código ideal?
+
+-> Código ideal para mim é código legível e fácil de testar.
+
+Descreva o passo a passo de um workflow git
+
+-> Sempre que começo a desenvolver uma nova feature, a partir da development, eu crio
+uma branch nova com o nome 'feature/nome_da_nova_feature' e desenvolvo tudo a partir de lá.
+Após terminar a feature solicito um pull request pra development. Tudo isso auxiliado com ferramentas
+de CI E CD.
+
+Qual o seu sistema operacional favorito? Justifique.
+
+-> Ubuntu, porque tenho mais familiaridade e é fácil de instalar junto com o windows.
+Atualmente tenho o windows, Ubuntu e Debian instalados.
+
+Qual o seu framework favorito? Justifique.
+
+-> Rails com certeza, eu já tive experiência com JSF e é nessas horas que você como
+o rails da mais produtividade para o desenvolvedor. Gosto muito de React também, não
+consegui terminar o teste 2 com React por falta de tempo :( (Provas e trabalhos da faculdade)
+
+Qual a sua linguagem de programação favorita? Justifique.
+
+-> Mesmo gostando muito de rails e odiando JSF, eu gosto muito de Java. Aos poucos venho
+gostando mais de ruby :)
+
+Qual a sua pretenção salarial?
+
+-> Acredito que algo entre R$ 2.000 e R$ 2.500 é um preço justo para um desenvolvedor junior.
+
+Coloque aqui o link para seu github para que possamos avaliar qualquer projeto anterior seu ou contribuição com projetos de código aberto.
+
+-> https://github.com/gabrielmm1234 , Deem uma olhada no repo Inkitt, fiz um teste pra uma empresa da alemanha usando rails.
+tem o helpjuice também que foi outro teste.
