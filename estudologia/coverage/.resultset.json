@@ -414,6 +414,7 @@
       "/home/gabriel/Desktop/Códigos/rails/estudologia/developer-test-rails/estudologia/app/controllers/web_pages_controller.rb": [
         1,
         1,
+        1,
         null,
         null,
         null,
@@ -491,6 +492,11 @@
       "/home/gabriel/Desktop/Códigos/rails/estudologia/developer-test-rails/estudologia/app/controllers/application_controller.rb": [
         1,
         1,
+        1,
+        null,
+        1,
+        17,
+        null,
         null
       ],
       "/home/gabriel/Desktop/Códigos/rails/estudologia/developer-test-rails/estudologia/spec/models/web_page_spec.rb": [
@@ -521,6 +527,6 @@
         null
       ]
     },
-    "timestamp": 1508710924
+    "timestamp": 1508712061
   }
 }
