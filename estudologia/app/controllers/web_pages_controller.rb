@@ -1,6 +1,6 @@
 class WebPagesController < ApplicationController
   before_action :set_web_page, only: %i[show edit update destroy]
-  caches_action :index, :show, :new, :edit
+  caches_action :show, :new, :edit
 
   # GET /web_pages
   # GET /web_pages.json
