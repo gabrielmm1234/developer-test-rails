@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @web_page.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @web_page.description %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @web_page.body %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @web_page.author %>
+</p>
+
+<%= link_to 'Edit', edit_web_page_path(@web_page) %> |
+<%= link_to 'Back', web_pages_path %>
