@@ -1,6 +1,5 @@
 <p id="notice"><%= notice %></p>
 
-<% cache @web_page do %>
 <p>
   <strong><%= t 'title' %>:</strong>
   <%= @web_page.title %>
@@ -20,7 +19,6 @@
   <strong><%= t 'author' %>:</strong>
   <%= @web_page.author %>
 </p>
-<% end %>
 
 <%= link_to t('edit'), edit_web_page_path(@web_page) %> |
 <%= link_to t('back'), web_pages_path %>
