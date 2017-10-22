@@ -1,6 +1,6 @@
-<h1>Editing Web Page</h1>
+<h1><%= t 'edit_web_page' %></h1>
 
 <%= render 'form', web_page: @web_page %>
 
-<%= link_to 'Show', @web_page %> |
-<%= link_to 'Back', web_pages_path %>
+<%= link_to t('show'), @web_page %> |
+<%= link_to t('back'), web_pages_path %>

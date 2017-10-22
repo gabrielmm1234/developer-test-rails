@@ -20,4 +20,20 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  web_pages: "Web Pages"
+  title: "Title"
+  description: "Description"
+  body: "Body"
+  author: "Author"
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  new_web_page: "New web page"
+  back: "Back"
+  submit_web_page: "Create web page"
+  delete: "Are you sure?"
+  edit_web_page: "Editing web page"
+  create_web_page_success: "Web page was successfully created."
+  update_web_page_success: "Web page was successfully updated."
+  destroy_web_page_success: "Web page was successfully destroyed."
   hello: "Hello world"

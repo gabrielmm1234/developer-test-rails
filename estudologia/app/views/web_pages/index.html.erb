@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Web Pages</h1>
+<h1><%= t 'web_pages' %></h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Body</th>
-      <th>Author</th>
+      <th><%= t 'title' %></th>
+      <th><%= t 'description' %></th>
+      <th><%= t 'body' %></th>
+      <th><%= t 'author' %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,9 +20,9 @@
         <td><%= web_page.description %></td>
         <td><%= web_page.body %></td>
         <td><%= web_page.author %></td>
-        <td><%= link_to 'Show', web_page %></td>
-        <td><%= link_to 'Edit', edit_web_page_path(web_page) %></td>
-        <td><%= link_to 'Destroy', web_page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('show'), web_page %></td>
+        <td><%= link_to t('edit'), edit_web_page_path(web_page) %></td>
+        <td><%= link_to t('destroy'), web_page, method: :delete, data: { confirm: t('delete') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Web Page', new_web_page_path %>
+<%= link_to t('new_web_page'), new_web_page_path %>
